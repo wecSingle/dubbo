@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2341a35-928a-4814-bcee-f1af83ba0b1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orderserviceconsumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orderserviceconsumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userserviceprovider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/userserviceprovider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmallinterface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmallinterface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmallinterface/target/classes/com/arch/gmall/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmallinterface/target/classes/com/arch/gmall/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmallinterface/target/classes/com/arch/gmall/bean/UserAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmallinterface/target/classes/com/arch/gmall/bean/UserAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmallinterface/target/classes/com/arch/gmall/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmallinterface/target/classes/com/arch/gmall/service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmallinterface/target/classes/com/arch/gmall/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmallinterface/target/classes/com/arch/gmall/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmallinterface/target/test-classes/com/arch/gmall/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmallinterface/target/test-classes/com/arch/gmall/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orderserviceconsumer/target/classes/com/arch/gmall/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/orderserviceconsumer/target/classes/com/arch/gmall/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orderserviceconsumer/target/classes/com/arch/gmall/MainApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/orderserviceconsumer/target/classes/com/arch/gmall/MainApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orderserviceconsumer/target/classes/com/arch/gmall/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/orderserviceconsumer/target/classes/com/arch/gmall/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orderserviceconsumer/target/test-classes/com/arch/gmall/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/orderserviceconsumer/target/test-classes/com/arch/gmall/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userserviceprovider/target/classes/com/arch/gmall/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/userserviceprovider/target/classes/com/arch/gmall/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userserviceprovider/target/classes/com/arch/gmall/MainApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/userserviceprovider/target/classes/com/arch/gmall/MainApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userserviceprovider/target/classes/com/arch/gmall/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/userserviceprovider/target/classes/com/arch/gmall/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userserviceprovider/target/classes/com/arch/gmall/service/impl/UserServiceImpl2.class" beforeDir="false" afterPath="$PROJECT_DIR$/userserviceprovider/target/classes/com/arch/gmall/service/impl/UserServiceImpl2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userserviceprovider/target/classes/com/arch/gmall/service/impl/UserServiceStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/userserviceprovider/target/classes/com/arch/gmall/service/impl/UserServiceStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userserviceprovider/target/test-classes/com/arch/gmall/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/userserviceprovider/target/test-classes/com/arch/gmall/AppTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/userserviceprovider/target/" />
@@ -43,7 +55,7 @@
           <entry key="java" value="45" />
           <entry key="md" value="4" />
           <entry key="properties" value="7" />
-          <entry key="xml" value="28" />
+          <entry key="xml" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -51,21 +63,21 @@
           <entry key="JAVA" value="45" />
           <entry key="Markdown" value="4" />
           <entry key="Properties" value="7" />
-          <entry key="XML" value="28" />
+          <entry key="XML" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="246" />
           <entry key="properties" value="30" />
-          <entry key="xml" value="62" />
+          <entry key="xml" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="246" />
           <entry key="Properties" value="30" />
-          <entry key="XML" value="62" />
+          <entry key="XML" value="64" />
         </counts>
       </usages-collector>
     </session>
@@ -99,10 +111,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/userserviceprovider/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="262">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gmallinterface/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
               <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
             </state>
           </provider>
@@ -124,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gmallinterface/pom.xml" />
         <option value="$PROJECT_DIR$/gmallinterface/src/main/java/com/arch/gmall/bean/UserAddress.java" />
         <option value="$PROJECT_DIR$/userserviceprovider/src/main/java/com/arch/gmall/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/gmallinterface/src/main/java/com/arch/gmall/service/UserService.java" />
@@ -150,6 +170,7 @@
         <option value="$PROJECT_DIR$/boot-user-service-provider/src/main/java/com/arch/gmall/bootuserserviceprovider/BootUserServiceProviderApplication.java" />
         <option value="$PROJECT_DIR$/orderserviceconsumer/pom.xml" />
         <option value="$PROJECT_DIR$/userserviceprovider/pom.xml" />
+        <option value="$PROJECT_DIR$/gmallinterface/pom.xml" />
       </list>
     </option>
   </component>
@@ -194,6 +215,11 @@
             <path>
               <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="gmallinterface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
               <item name="orderserviceconsumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -216,7 +242,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585720032701" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585720225085" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -377,12 +403,12 @@
       <option name="presentableId" value="Default" />
       <updated>1585479521969</updated>
       <workItem from="1585479525262" duration="6049000" />
-      <workItem from="1585707762399" duration="1254000" />
+      <workItem from="1585707762399" duration="1436000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7303000" />
+    <option name="totallyTimeSpent" value="7485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -404,13 +430,13 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3285968" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3291815" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.42984015" />
       <window_info anchor="bottom" id="Problems" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" visible="true" weight="0.13879004" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.28825623" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -493,13 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-13">
           <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmallinterface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="33" selection-start-line="6" selection-start-column="3" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -633,6 +652,13 @@
     <entry file="file://$PROJECT_DIR$/userserviceprovider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmallinterface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
         </state>
       </provider>
