@@ -13,13 +13,12 @@
         <module name="userserviceprovider" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
       <module name="boot-order-service-consumer" target="1.8" />
       <module name="boot-user-service-provider" target="1.8" />
-      <module name="bootuserserviceprovider" target="1.7" />
-      <module name="gmallinterface" target="1.7" />
-      <module name="orderserviceconsumer" target="1.7" />
-      <module name="userserviceprovider" target="1.7" />
+      <module name="gmallinterface" target="8" />
+      <module name="orderserviceconsumer" target="8" />
+      <module name="userserviceprovider" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
