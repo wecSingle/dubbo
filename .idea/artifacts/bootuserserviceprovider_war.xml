@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="bootuserserviceprovider:war">
+    <output-path>$PROJECT_DIR$/bootuserserviceprovider/target</output-path>
+    <root id="archive" name="boot-user-service-provider.war">
+      <element id="artifact" artifact-name="bootuserserviceprovider:war exploded" />
+    </root>
+  </artifact>
+</component>
